@@ -1,5 +1,5 @@
 const Home = () => {
-  return <div>UTM Register</div>;
-};
+  return <div>UTM Register</div>
+}
 
-export default Home;
+export default Home
