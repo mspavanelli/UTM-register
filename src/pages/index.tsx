@@ -1,10 +1,11 @@
 import Layout from '../components/Layout/Layout'
-import Header from '../components/Layout/Header'
+
+import Account from '../components/Account'
 
 const Home = () => {
   return (
     <Layout>
-      <Header />
+      <Account />
     </Layout>
   )
 }

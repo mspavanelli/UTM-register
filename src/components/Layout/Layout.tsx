@@ -1,11 +1,14 @@
-import { Box } from '@chakra-ui/react'
+import { Box, Container } from '@chakra-ui/react'
 
-const Header = ({ children }) => {
+import Header from './Header'
+
+const Layout = ({ children }) => {
   return (
     <Box bg="gray.50" h="100%" minH="100vh">
-      {children}
+      <Header />
+      <Container>{children}</Container>
     </Box>
   )
 }
 
-export default Header
+export default Layout
