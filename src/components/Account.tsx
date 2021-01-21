@@ -38,6 +38,8 @@ const Account = () => {
         </Text>
       </Flex>
 
+      <Divider my="5" color="gray.500" />
+
       <Heading as="h4" color="green.600" size="md" my="4">
         Add operation
       </Heading>
@@ -52,6 +54,7 @@ const Account = () => {
             <Stack direction="row">
               <Radio
                 name="type"
+                borderColor="gray.700"
                 colorScheme="green"
                 value={Operation.DEPOSIT.toString()}
               >
@@ -59,6 +62,7 @@ const Account = () => {
               </Radio>
               <Radio
                 name="type"
+                borderColor="gray.700"
                 colorScheme="green"
                 value={Operation.WITHDRAW.toString()}
               >
