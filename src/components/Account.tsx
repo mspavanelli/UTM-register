@@ -17,6 +17,8 @@ import {
 import { formatCurrency } from '../utils/format'
 import Operation from '../utils/enum/Operation'
 
+import Operations from './Operations'
+
 const Account = () => {
   const formatMoney = formatCurrency()
 
@@ -44,7 +46,7 @@ const Account = () => {
         Add operation
       </Heading>
 
-      <Box mt="4" bg="white" boxShadow="md" p="4">
+      <Box my="4" bg="white" boxShadow="md" p="4">
         <Box mb="4">
           <Heading as="h5" color="green.600" size="sm" my="2">
             Type
@@ -92,6 +94,8 @@ const Account = () => {
           Confirm
         </Button>
       </Box>
+
+      <Operations />
     </Box>
   )
 }
