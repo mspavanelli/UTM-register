@@ -1,6 +1,6 @@
 enum Operation {
-  DEPOSIT = 0,
-  WITHDRAW = 1,
+  DEPOSIT = 'Deposit',
+  WITHDRAW = 'Withdraw',
 }
 
 export default Operation
